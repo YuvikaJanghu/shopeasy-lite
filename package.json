@@ -1,0 +1,11 @@
+{
+  "name": "shopeasy-lite",
+  "version": "1.0.0",
+  "description": "A simple ShopEasy Lite application for CI testing",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test",
+    "lint": "node --check app.js && node --check app.test.js"
+  }
+}
